@@ -1,0 +1,122 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.expense-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 350px;
+}
+
+.expense-item.positive{
+  border-right: 4px solid green ;
+}
+
+.expense-item.negative{
+  border-right: 4px solid red;  
+}
+
+.balance-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 350px;
+}
+
+.income-expense-container{
+  display: flex;
+  justify-content:space-around;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 350px;
+  margin: 1rem auto;
+}
+
+.income,
+.expense {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.income .title,
+.expense .title {
+  font-size: 20px;
+  color: black;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+.block {
+  width: 2px;
+  background-color: #aaa;
+  border-radius: 10px;
+}
+
+.balance{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: #0a6ad0;
+}
+
+.input-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 350px;
+
+}
+
+.button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+form .error{
+  color: red;
+  font-size: 12px;
+  margin: 0 0 1rem 0;
+}
+
+.delete{
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: aqua;
+  align-items: center;
+}
